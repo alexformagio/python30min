@@ -1,6 +1,6 @@
 import sys
 
-def methodOne():
-   print("method one")
+def methodOne(value):
+   print("method one",value)
 
-methodOne()
+methodOne("python is great")
