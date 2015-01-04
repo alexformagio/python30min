@@ -19,12 +19,6 @@ for y in grocery_list:
 for x in [2,4,6,8,10]:
     print(x)
 
-# You can double up for loops to cycle through lists
-num_list =[[1,2,3],[10,20,30],[100,200,300]];
-
-for x in range(0,3):
-    for y in range(0,3):
-        print(num_list[x][y])
 
 # WHILE LOOPS -------------
 # While loops are used when you don't know ahead of time how many
@@ -51,3 +45,16 @@ while (i <= 20):
 
     i += 1
 
+# You can double up for loops to cycle through lists
+num_list =[[1,2,3],[10,20,30],[100,200,300]];
+
+for x in range(0,3):
+    for y in range(0,3):
+        print(num_list[x][y],end="")
+
+
+print("\n-----------------------------")
+
+for x in num_list:
+    for y in x:
+        print(y,end="")
